@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #ff6c00; /*Основной цвет сайта используется для*/
+  --secondary-color: #191c26;
+
+  --text-primary: #303030;
+  --text-secondary: #9da4bd;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+h2.section-title {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 42px;
+  color: var(--text-primary);
+}
+
+h2.section-title.lighten {
+  color: #76dd3a;
+}
